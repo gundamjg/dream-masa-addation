@@ -1,0 +1,21 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.forgotdream.dma.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "plugin": "top.hendrixshen.magiclib.impl.mixin.MagicMixinPlugin",
+  "mixins": [
+    "features.ignoreSpecNBTTagsWhenSort.InventoryUtilsAccessor",
+    "features.ignoreSpecNBTTagsWhenSort.InventoryUtilsMixin",
+    "features.ignoreSpecNBTTagsWhenSort.SortInventoryUtilMixin",
+    "features.quickCraftWithRecipeBook.RecipePatternAccessor",
+    "fixes.fixTweakerooGammaOverride.ConfigsMixin"
+  ],
+  "client": [
+    "features.quickCraftWithRecipeBook.RecipeBookComponentMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "DreamMasaAddition-1.21-0.1.1-refmap.json"
+}

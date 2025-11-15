@@ -1,0 +1,22 @@
+{
+  "mappings": {
+    "dev/forgotdream/dma/mixins/features/ignoreSpecNBTTagsWhenSort/InventoryUtilsAccessor": {
+      "compareStacks": "compareStacks(Lnet/minecraft/class_1799;Lnet/minecraft/class_1799;)I"
+    },
+    "dev/forgotdream/dma/mixins/features/quickCraftWithRecipeBook/RecipeBookComponentMixin": {
+      "Lnet/minecraft/client/multiplayer/MultiPlayerGameMode;handlePlaceRecipe(ILnet/minecraft/world/item/crafting/RecipeHolder;Z)V": "Lnet/minecraft/class_636;method_2912(ILnet/minecraft/class_8786;Z)V",
+      "mouseClicked": "Lnet/minecraft/class_507;method_25402(DDI)Z"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "dev/forgotdream/dma/mixins/features/ignoreSpecNBTTagsWhenSort/InventoryUtilsAccessor": {
+        "compareStacks": "compareStacks(Lnet/minecraft/class_1799;Lnet/minecraft/class_1799;)I"
+      },
+      "dev/forgotdream/dma/mixins/features/quickCraftWithRecipeBook/RecipeBookComponentMixin": {
+        "Lnet/minecraft/client/multiplayer/MultiPlayerGameMode;handlePlaceRecipe(ILnet/minecraft/world/item/crafting/RecipeHolder;Z)V": "Lnet/minecraft/class_636;method_2912(ILnet/minecraft/class_8786;Z)V",
+        "mouseClicked": "Lnet/minecraft/class_507;method_25402(DDI)Z"
+      }
+    }
+  }
+}
